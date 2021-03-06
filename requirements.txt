@@ -19,6 +19,7 @@ colorama==0.4.3
 comtypes==1.1.7
 coreapi==2.3.3
 coreschema==0.0.4
+coverage==5.5
 cryptography==3.1.1
 cssselect==1.1.0
 cycler==0.10.0
