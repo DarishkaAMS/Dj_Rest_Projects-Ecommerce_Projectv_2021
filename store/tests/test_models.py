@@ -13,6 +13,8 @@ class TestCategoryModel(TestCase):
         data = self.data1
         self.assertTrue(isinstance(data, Category))
 
+    print("TestCategoryModel passed")
+
 
 class TestProductModel(TestCase):
 
@@ -25,4 +27,6 @@ class TestProductModel(TestCase):
         def test_product_model_entry(self):
             data = self.data1
             self.assertTrue(isinstance(data, Product))
+            self.assertEqual(str(data), 'test title')
 
+    print("TestProductModel passed")
